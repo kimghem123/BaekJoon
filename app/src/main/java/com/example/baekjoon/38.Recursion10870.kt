@@ -8,7 +8,6 @@ fun main() {
 }
 
 fun fibonacci(N: Int): Int {
-    println(N)
     return if (N < 2) N else fibonacci(N - 1) + fibonacci(N - 2)
 }
 
