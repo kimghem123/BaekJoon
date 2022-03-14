@@ -24,5 +24,5 @@ fun main(array: Array<String>){
             }
         }
     }
-    println(final)
+    print(final)
 }
