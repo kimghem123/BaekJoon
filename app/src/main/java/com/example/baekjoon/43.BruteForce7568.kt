@@ -22,6 +22,6 @@ fun main(array: Array<String>){
         }
     }
     for(i in 0..N-1){
-        print("${(result[i]+1)} ")
+        println("${(result[i]+1)} ")
     }
 }
