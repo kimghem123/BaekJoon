@@ -21,7 +21,7 @@ fun main(array: Array<String>){
             else if(lenghtList[i]>lenghtList[k]&&weightList[i]>weightList[k]) result[k] += 1
         }
     }
-    for(i in 0 until N){
+    for(i in 0..N-1){
         print("${(result[i]+1)} ")
     }
 }
